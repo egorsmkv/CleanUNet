@@ -1,8 +1,10 @@
 import torch
+import torchaudio
 
 from scipy.io.wavfile import write as wavwrite
 
 from cleanunet.network import CleanUNet
+from cleanunet.util import sampling
 
 # load the checkpoint
 checkpoint = torch.load('./DNS-large-full.pkl', map_location='cpu')
