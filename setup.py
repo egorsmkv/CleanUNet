@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="cleanunet",
-    version="0.0.1",
+    version="0.0.2",
     author="Yehor Smoliakov",
     author_email="egorsmkv@gmail.com",
     description="cleanunet",
